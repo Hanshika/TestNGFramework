@@ -7,8 +7,7 @@ import org.testng.annotations.Test;
 
 public class GroupingTestCases {
 
-
-	 @Test (groups = { "smoke Testing" })
+ @Test (groups = { "smoke Testing" })
 	 
 	  public void Test1() {
 		 System.setProperty("webdriver.gecko.driver", "H://Users//Hanshika//gomathy_java//Seleniumtestmethods//chromedriver.exe");
